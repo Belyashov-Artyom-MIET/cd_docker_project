@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    image: goodberlyan/cd_docker_project:latest
+    ports:
+      - '80:5000'
+    restart: always
